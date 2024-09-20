@@ -1,0 +1,10 @@
+:root {
+	/* Colors */
+	--color-text: black;
+	--color-primary: rgb(136, 107, 10);
+	--color-secondary: white;
+
+	/* Font */
+	--font-fantasy: fantasy;
+	--font-roboto: "Roboto";
+}

@@ -1,0 +1,111 @@
+@import "./../../vars.css";
+
+.navbar {
+	background-color: var(--color-primary);
+	background-color: var(--color-bg);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 31px;
+	margin: 0 5%;
+	font-family: var(--font-roboto);
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: default;
+	font-family: var(--font-fantasy);
+	letter-spacing: 1px;
+	color: var(--color-text);
+}
+
+.menu {
+	display: flex;
+	gap: 47px;
+	list-style: none;
+}
+
+.menuBtn {
+	display: none;
+}
+
+.menuItems {
+	display: flex;
+	gap: 37px;
+	list-style: none;
+	font-weight: 500;
+}
+
+.menuItems a {
+	font-size: 1.2rem;
+	color: var(--color-text);
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+	letter-spacing: 1px;
+}
+
+.menuItems a:hover {
+	color: var(--color-primary);
+	text-underline-offset: 1rem;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 830px) {
+	.container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.title {
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+	}
+
+	.menu {
+		position: absolute;
+		right: 0;
+		margin-right: 10%;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 11px;
+		z-index: 3;
+	}
+
+	.menuBtn {
+		display: block;
+		cursor: pointer;
+		width: 30px;
+		height: 30px;
+	}
+
+	.menuItems {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+		border-radius: 10px;
+		background-color: var(--color-text);
+		color: var(--color-secondary);
+		padding: 30px 43px;
+		box-shadow: 0 0 0 solid white;
+		margin-top: 20px;
+	}
+
+	.menuItems a {
+		font-size: 25px;
+		color: var(--color-bg);
+	}
+
+	.menuOpen {
+		display: flex;
+		z-index: 3;
+	}
+}

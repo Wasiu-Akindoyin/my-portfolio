@@ -1,0 +1,37 @@
+[
+    {
+        "title": "A Beginner’s Guide to Mastering React.js",
+        "description": "This beginner's guide to React.js introduces you to one of the most popular JavaScript libraries for building interactive user interfaces and single-page applications (SPAs). The article covers the basics of React, highlighting its component-based architecture, virtual DOM, and strong community support. It guides you through setting up your development environment using Create React App and creating your first React component. With practical examples and clear instructions, this guide will help you get started with React and build your first high-performance web application.",
+        "dates": ["7 min read", "June 7, 2024"],
+        "link": "https://medium.com/web-3-digitals/a-beginners-guide-to-mastering-react-js-7d5b1a23d787",
+        "imageSrc": "React.png"
+    },
+    {
+        "title": "HTMLCollection and NodeList in JavaScript Document Object Model (DOM): A Comprehensive Guide",
+        "description": "HTMLCollection and NodeList are both collections for DOM manipulation in JavaScript. HTMLCollection is always live and updates automatically with DOM changes, but it lacks array methods. NodeList can be static or live; static NodeLists, like those from querySelectorAll, do not update with DOM changes, while live NodeLists, like those from childNodes, do. NodeLists can include different types of nodes and can be converted to arrays for easier manipulation. Understanding these differences helps in making efficient choices for DOM manipulation.",
+        "dates": ["13 min read", "May 10, 2024"],
+        "link": "https://medium.com/coinmonks/htmlcollection-and-nodelist-in-javascript-document-object-model-dom-a-comprehensive-guide-32999ecc6a58",
+        "imageSrc": "HTMLvsNode.png"
+    },
+    {
+        "title": "Understanding Different Units in CSS: A Beginner’s Guide with Real-World Analogies",
+        "description": "Picture yourself as a web designer building a beautiful website; ensuring elements fit perfectly, align properly, and look good on every device is crucial. Understanding units in CSS is key for defining measurements like width, height, margin, padding, and font size. This article will break down CSS units using simple analogies. Absolute units like pixels (px) offer precise control, while relative units like em and rem adjust based on surroundings for responsive design. Viewport units (vw, vh) adapt to screen size, ensuring flexibility. Choosing the right unit depends on the specific task, and with practice, you'll become a CSS unit expert.",
+        "dates": ["8 min read", "April 18, 2024"],
+        "link": "https://medium.com/web-3-digitals/understanding-different-units-in-css-a-practical-guide-with-examples-bd816ec21836",
+        "imageSrc": "CSS-measure.png"
+    },
+    {
+        "title": "Building a Weather Forecast Application with HTML, CSS, and JavaScript: A Step-by-Step Guide",
+        "description": "This guide explains how to create a weather forecast application using HTML, CSS, and JavaScript. Users can search for any location to view current weather conditions, using the OpenWeather API. Basic knowledge of HTML, CSS, and JavaScript is needed. The project includes location-based weather search, responsive design, and visual weather icons. Testing and debugging involve using developer tools in a web browser, and deployment is via GitHub Pages. Future improvements include geolocation, local storage, error handling, and support for multiple locations.",
+        "dates": ["8 min read", "April 2, 2024"],
+        "link": "https://medium.com/coinmonks/building-a-weather-forecast-application-with-html-css-and-javascript-a-step-by-step-guide-998583ec501b",
+        "imageSrc": "weather.png"
+    },
+    {
+        "title": "Building a Ping Pong Game with HTML, CSS, and JavaScript: A Step-by-Step Guide",
+        "description": "This comprehensive guide empowers you to create a dynamic ping pong game using HTML, CSS, and JavaScript. Delve into web development as you construct interactive elements, implement core game mechanics, and design the game's visual appeal. From creating paddles and a ball to mastering collision detection and scoring, this tutorial provides a hands-on approach to building a functional and engaging game. Enjoy the challenge of coding a user-controlled paddle against an AI opponent while tracking scores and mastering intuitive controls. This project serves as a strong foundation for further exploration in web development and game creation.",
+        "dates": ["8 min read", "April 3, 2024"],
+        "link": "https://medium.com/web-3-digitals/building-a-ping-pong-game-with-html-css-and-javascript-a-step-by-step-guide-91f607eb0a10",
+        "imageSrc": "Ping-pong.png"
+    }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Weather Forecast Application",
+    "description": "The Weather Forecast Application is a user-friendly tool that provides real-time weather updates for any location worldwide. Built with a responsive interface, it allows users to search for weather conditions by city or GPS location, displaying current temperature, humidity, wind speed, and a 5-day forecast. The application integrates with a reliable weather API to ensure accurate and up-to-date information, making it an essential resource for planning daily activities or travel.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://wasiu-akindoyin.github.io/Weather-Forecast-Web-Application/",
+    "source": "https://github.com/Wasiu-Akindoyin/Weather-Forecast-Web-Application"
+  },
+  {
+    "title": "Ping Pong Game Application",
+    "description": "The Ping Pong Game Application is a fun and interactive web-based game that replicates the classic table tennis experience. Designed with intuitive controls and smooth animations, it offers both single-player mode against AI and multiplayer mode for challenging friends. The game features responsive gameplay, score tracking, and adjustable difficulty levels, making it engaging for players of all skill levels. Built using modern web technologies, this application ensures a seamless and enjoyable gaming experience across various devices.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://wasiu-akindoyin.github.io/Ping-Pong-Game-Web-Application/",
+    "source": "https://github.com/Wasiu-Akindoyin/Ping-Pong-Game-Web-Application"
+  },
+  {
+    "title": "Lagos State Image Gallery",
+    "description": "The Lagos State Image Gallery is an online collection showcasing the vibrant culture, iconic landmarks, and diverse landscapes of Lagos State, Nigeria. The gallery features high-quality images categorized by themes such as architecture, festivals, nature, and daily life, providing a visual tour of the state’s rich heritage. With an easy-to-navigate interface, users can explore and appreciate the beauty of Lagos through stunning photography, making this gallery a valuable resource for tourists, historians, and locals alike.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://wasiu-akindoyin.github.io/Lagos-State-Images-Art-Gallery/",
+    "source": "https://github.com/Wasiu-Akindoyin/Lagos-State-Images-Art-Gallery"
+  },
+  {
+    "title": "Blockchain Quiz Application",
+    "description": "The Blockchain Quiz Application is an interactive educational tool designed to test and enhance users' knowledge of blockchain technology. With a range of quizzes covering topics from basic concepts to advanced applications, the app provides a fun and engaging way to learn about cryptocurrencies, smart contracts, decentralized finance (DeFi), and more. Users can track their progress, compete on leaderboards, and earn badges for their achievements. This application is ideal for students, professionals, and enthusiasts looking to deepen their understanding of the blockchain ecosystem.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://wasiu-akindoyin.github.io/Blockchain-Quiz-App/",
+    "source": "https://github.com/Wasiu-Akindoyin/Blockchain-Quiz-App"
+  },
+  {
+    "title": "People Counter Application",
+    "description": "The People Counter Application is a smart solution designed to track and monitor foot traffic in real-time. Ideal for retail stores, event venues, and public spaces, the application uses advanced algorithms to count the number of people entering and exiting a location. It provides accurate data and insights on visitor flow, peak times, and occupancy levels. With a user-friendly dashboard and customizable reports, the application helps businesses optimize operations, improve customer experiences, and ensure safety compliance.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://wasiu-akindoyin.github.io/People-Counter-Web-Application/",
+    "source": "https://github.com/Wasiu-Akindoyin/People-Counter-Web-Application"
+  }
+]
