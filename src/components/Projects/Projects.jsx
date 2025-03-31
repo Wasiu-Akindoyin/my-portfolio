@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 import projects from '../../data/projects.json';
 
 // Importing all images
+import PortfolioImage from "../../assets/projects/Portfolio.png";
 import WeatherImage from "../../assets/projects/Weather.png";
 import PingPongImage from "../../assets/projects/Ping-pong.png";
 import LagosImage from "../../assets/projects/Lagos-image.png";
@@ -10,6 +11,7 @@ import BlockchainImage from "../../assets/projects/Blockchain-app.png";
 import PeopleCounterImage from "../../assets/projects/People-counter.png";
 
 const imageMap = {
+  "Portfolio Website": PortfolioImage,
   "Weather Forecast Application": WeatherImage,
   "Ping Pong Game Application": PingPongImage,
   "Lagos State Image Gallery": LagosImage,

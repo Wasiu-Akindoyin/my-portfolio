@@ -1,6 +1,12 @@
 import React from 'react';
-import { getImageUrl } from '../../utils';
+// import { getImageUrl } from '../../utils';
 import styles from "./Contacts.module.css";
+
+import GitHubImg from '../../assets/contact/GitHub-Icon.png';
+import LinkedInImg from '../../assets/contact/LinkedIn-Icon.png';
+import MediumImg from '../../assets/contact/Medium-Icon.png';
+import TwitterImg from '../../assets/contact/Twitter-Icon.png';
+
 
 export const Contacts = () => {
 	return (
@@ -9,19 +15,19 @@ export const Contacts = () => {
 				<div className={styles.icons}>
 					<ul className={styles.links}>
 						<li className={styles.link}>
-							<a href="https://github.com/Wasiu-Akindoyin"><img src={getImageUrl("contact/icons8-github-50.png")} alt="github icon" /></a>
+							<a href="https://github.com/Wasiu-Akindoyin"><img src={GitHubImg} alt="GitHub Image" /></a>
 						</li>
 
 						<li className={styles.link}>
-							<a href="https://www.linkedin.com/in/wasiu-akindoyin-4814591a6/"><img src={getImageUrl("contact/icons8-linkedin-24 (1).png")} alt="linkedin icon" /></a>
+							<a href="https://www.linkedin.com/in/wasiu-akindoyin-4814591a6/"><img src={LinkedInImg} alt="LinkedIn Image" /></a>
 						</li>
 
 						<li className={styles.link}>
-							<a href="https://medium.com/@wasiuwazzy"><img src={getImageUrl("contact/icons8-medium-50.png")} alt="medium icon" /></a>
+							<a href="https://medium.com/@wasiuwazzy"><img src={MediumImg} alt="Medium Image" /></a>
 						</li>
 
 						<li className={styles.link}>
-							<a href="https://x.com/AkindoyinWasiu"><img src={getImageUrl("contact/icons8-twitter-50.png")} alt="twitter icon" /></a>
+							<a href="https://x.com/AkindoyinWasiu"><img src={TwitterImg} alt="Writer Image" /></a>
 						</li>
 					</ul>
 				</div>

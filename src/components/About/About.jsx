@@ -4,6 +4,11 @@ import { getImageUrl } from '../../utils';
 
 import styles from "./About.module.css";
 
+import WriterImg from '../../assets/about/Writer-Icon.png';
+import CodeImg from '../../assets/about/Code-Icon.png';
+import EducationImg from '../../assets/about/Education-Icon.png';
+
+
 export const About = () => {
 	return (
 	<section className={styles.container} id='about'>
@@ -11,26 +16,24 @@ export const About = () => {
 		<div className={styles.content}>
 			<ul className={styles.aboutItems}>
 				<li className={styles.aboutItem}>
-					<img src={getImageUrl("about/icons8-google-code-48.png")} alt="frontend icon" />
+					<img src={WriterImg} alt="Writer Image" />
 					<div className={styles.aboutIconText}>
-						<h3>Front-end Developer</h3>
-						<p>My journey as a frontend developer is a testament to my passion, perseverance, and continuous learning. Starting as a self-taught developer, I've honed my skills in HTML, CSS, JavaScript, and React, crafting responsive and user-friendly web applications that meet the highest standards of functionality and design. My growing interest in blockchain technology adds a new dimension to my work, as I actively explore ways to integrate decentralized solutions into the frontend. <br></br>
-						<br></br>
-						Clients and companies can expect forward-thinking solutions that not only meet their current needs but also position them for future growth. By blending traditional web development expertise with a deep curiosity for blockchain, I deliver digital experiences that are secure, transparent, and engaging. My commitment is to stay ahead of the curve, ensuring that the solutions I provide are both innovative and impactful, helping businesses lead in their industries.</p>
+						<h3>Web3 Technical Writer</h3>
+						<p>I’m a Web3 Technical Writer deeply invested in Web3 education, making blockchain concepts accessible through clear and engaging documentation. With experience writing for Velas Blockchain and Sei Network, I specialize in API docs, developer guides, and explainers on blockchain infrastructure, DeFi, NFTs, and smart contracts. My work enhances developer adoption, speeds up onboarding, and boosts organic traffic through clear, impactful content.</p>
 					</div>
 				</li>
 				<li className={styles.aboutItem}>
-					<img src={getImageUrl("about/icons8-writer-male-50.png")} alt="writer icon" />
+					<img src={CodeImg} alt="Code Image" />
 					<div className={styles.aboutIconText}>
-						<h3>Technical Writer</h3>
-						<p>As a technical writer specializing in frontend development and Web3 technologies, I craft content that bridges the gap between cutting-edge innovation and practical application. With a deep understanding of blockchain, decentralized systems, and modern web technologies, I deliver clear, engaging, and technically accurate content tailored to the needs of forward-thinking clients. My writing not only educates but also empowers businesses to harness the potential of Web3 and advanced frontend solutions, driving growth and staying ahead in a rapidly evolving digital landscape. By aligning my content with industry trends, I help companies communicate complex ideas effectively and position themselves as leaders in the tech space.</p>
+						<h3>Software Developer (Frontend Development)</h3>
+						<p>As a self-taught frontend developer, I specialize in building dynamic and responsive web applications using React, JavaScript, HTML, and CSS. My experience includes working with JSON data structures, implementing animations, and optimizing UI/UX for seamless user experiences. I’ve built projects ranging from interactive web applications to real-world blockchain-based interfaces. With a strong technical writing background, I also create developer-friendly documentation, ensuring smooth collaboration between engineers and end users. I’m passionate about crafting efficient, scalable, and visually appealing frontend solutions.</p>
 					</div>
 				</li>
 				<li className={styles.aboutItem}>
-					<img src={getImageUrl("about/icons8-education-50.png")} alt="Education icon" />
+					<img src={EducationImg} alt="Education Image" />
 					<div className={styles.aboutIconText}>
 						<h3>Education</h3>
-						<p>I hold a Diploma in Frontend Development from Alison, where I gained a solid foundation in modern web technologies, best practices, and industry-standard tools. This education, combined with my hands-on experience, equips me to design and develop high-quality web applications that meet the evolving needs of users and businesses. My commitment to continuous learning ensures that I stay current with the latest advancements, enabling me to deliver innovative solutions that drive results.</p>
+						<p>I hold a Diploma in Frontend Development and a Technical Writing Essentials Certificate from Alison. This combination equips me with the skills to build user-friendly web applications while creating clear and concise technical documentation.</p>
 					</div>
 				</li>
 			</ul>

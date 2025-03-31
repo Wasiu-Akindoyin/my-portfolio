@@ -12,6 +12,7 @@ export const Skills = () => {
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>JavaScript</li>
+					<li>Solidity</li>
 				</ul>
 			</div>
 			<div className={styles.libraries}>
@@ -36,7 +37,7 @@ export const Skills = () => {
 				</ul>
 			</div>
 			<div className={styles.resume}>
-				<a href="/Akindoyin_Writing_Resume.pdf" target="_blank" rel="noopener noreferrer" >Download Resume</a>
+				<a href="/Wasiu-Akindoyin_Resume-2025.pdf" target="_blank" rel="noopener noreferrer" >Download Resume</a>
 			</div>
 		</div>
 	</section>

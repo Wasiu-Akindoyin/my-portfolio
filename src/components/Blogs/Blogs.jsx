@@ -3,18 +3,22 @@ import blogs from '../../data/blogs.json';
 import styles from './Blogs.module.css';
 
 // Use relative paths for images
+import ZKImage from "../../assets/blogs/ZK-Image.png";
+import SEIImage from "../../assets/blogs/SEI-Image.png";
+import VelasImage from "../../assets/blogs/Velas-Image.png";
+import TokenomicsImage from "../../assets/blogs/Tokenomics-Image.png";
+import LayersImage from "../../assets/blogs/Layers-Image.png";
 import ReactImage from "../../assets/blogs/React.png";
 import HTMLvsNodeImage from "../../assets/blogs/HTMLvsNode.png";
-import CSSMeasureImage from "../../assets/blogs/CSS-measure.png";
-import WeatherImage from "../../assets/blogs/weather.png";
-import PingPongImage from "../../assets/blogs/Ping-pong.png";
 
 const blogImages = {
+    "ZK-Image.png": ZKImage,
+    "SEI-Image.png": SEIImage,
+    "Velas-Image.png": VelasImage,
+    "Tokenomics-Image.png": TokenomicsImage,
+    "Layers-Image.png": LayersImage,
     "React.png": ReactImage,
     "HTMLvsNode.png": HTMLvsNodeImage,
-    "CSS-measure.png": CSSMeasureImage,
-    "weather.png": WeatherImage,
-    "Ping-pong.png": PingPongImage,
 };
 
 export const Blogs = () => {
