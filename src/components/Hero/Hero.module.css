@@ -138,8 +138,8 @@
 
 	.name {
 		font-size: 2rem;
-		font-weight: 900;
 		margin-bottom: 2rem;
+		letter-spacing: 1px;
 	}
 
 	.description {

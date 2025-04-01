@@ -20,6 +20,8 @@ export const Skills = () => {
 				<ul>
 					<li>React</li>
 					<li>Anime.js</li>
+					<li>Web3.js</li>
+					<li>Ethers.js</li>
 				</ul>
 			</div>
 			<div className={styles.frameworks}>

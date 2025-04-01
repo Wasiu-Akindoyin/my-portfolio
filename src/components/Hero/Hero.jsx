@@ -15,7 +15,7 @@ export const Hero = () => {
 			<div className={styles.contents}>
 				<p className={styles.title}>Hello, I am</p>
 				<h1 className={styles.name}>Wasiu Web3</h1>
-				<p className={styles.description}>A Web3 Technical Writer & Software Developer</p>
+				<p className={styles.description}>A Web3 Technical Writer & Front-end Developer</p>
 				<div className={styles.btnsContainer}>
 					<a href="/Wasiu-Akindoyin_Resume-2025.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeBtn}>Download Resume</a>
 					<a href="mailto:wasiuwazzy@gmail.com" className={styles.contactBtn}>Get in Touch</a>

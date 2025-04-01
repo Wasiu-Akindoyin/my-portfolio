@@ -19,21 +19,21 @@ export const About = () => {
 					<img src={WriterImg} alt="Writer Image" />
 					<div className={styles.aboutIconText}>
 						<h3>Web3 Technical Writer</h3>
-						<p>I’m a Web3 Technical Writer deeply invested in Web3 education, making blockchain concepts accessible through clear and engaging documentation. With experience writing for Velas Blockchain and Sei Network, I specialize in API docs, developer guides, and explainers on blockchain infrastructure, DeFi, NFTs, and smart contracts. My work enhances developer adoption, speeds up onboarding, and boosts organic traffic through clear, impactful content.</p>
+						<p>I am a Web3 Technical Writer deeply invested in Web3 education, making blockchain concepts accessible through clear and engaging documentation. With experience writing for Velas Blockchain and Sei Network, I specialize in API docs, developer guides, and explainers on blockchain infrastructure, DeFi, NFTs, and smart contracts. My work enhances developer adoption, speeds up onboarding, and boosts organic traffic through clear, impactful content.</p>
 					</div>
 				</li>
 				<li className={styles.aboutItem}>
 					<img src={CodeImg} alt="Code Image" />
 					<div className={styles.aboutIconText}>
-						<h3>Software Developer (Frontend Development)</h3>
-						<p>As a self-taught frontend developer, I specialize in building dynamic and responsive web applications using React, JavaScript, HTML, and CSS. My experience includes working with JSON data structures, implementing animations, and optimizing UI/UX for seamless user experiences. I’ve built projects ranging from interactive web applications to real-world blockchain-based interfaces. With a strong technical writing background, I also create developer-friendly documentation, ensuring smooth collaboration between engineers and end users. I’m passionate about crafting efficient, scalable, and visually appealing frontend solutions.</p>
+						<h3>Front-End Developer</h3>
+						<p>As a self-taught front-end developer, I specialize in building dynamic and responsive web applications using React, JavaScript, HTML, and CSS. My experience includes working with JSON data structures, implementing animations, and optimizing UI/UX for seamless user experiences. I’ve built projects ranging from interactive web applications to real-world blockchain-based interfaces. With a strong technical writing background, I also create developer-friendly documentation, ensuring smooth collaboration between engineers and end users. I’m passionate about crafting efficient, scalable, and visually appealing frontend solutions.</p>
 					</div>
 				</li>
 				<li className={styles.aboutItem}>
 					<img src={EducationImg} alt="Education Image" />
 					<div className={styles.aboutIconText}>
 						<h3>Education</h3>
-						<p>I hold a Diploma in Frontend Development and a Technical Writing Essentials Certificate from Alison. This combination equips me with the skills to build user-friendly web applications while creating clear and concise technical documentation.</p>
+						<p>I hold a Diploma in Front-end Development and a Technical Writing Essentials Certificate from Alison. This combination equips me with the skills to build user-friendly web applications while creating clear and concise technical documentation.</p>
 					</div>
 				</li>
 			</ul>
